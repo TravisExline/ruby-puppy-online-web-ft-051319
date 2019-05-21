@@ -12,8 +12,7 @@ class Dog
   end
 
   def self.all(name)
-    @@all.each do |doggo|
-      puts "#{doggo}"
+    @@all.split
     end
   end
 end

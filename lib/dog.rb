@@ -13,6 +13,5 @@ class Dog
 
   def self.all(name)
     @@all.split
-    end
   end
 end

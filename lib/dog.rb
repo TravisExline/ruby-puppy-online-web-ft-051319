@@ -12,6 +12,8 @@ class Dog
   end
 
   def self.all
-    @@all.split
+    @@all.each do |doggo|
+      puts doggo
+    end
   end
 end
